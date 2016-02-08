@@ -1,0 +1,12 @@
+<h1 class="title" data-bind="title"></h1>
+
+<ul class="ratp-container">
+  <li data-foreach-item="items" style="width:100%">
+  <span class="ratp-left">
+    <span class="" data-bind-class="item.symbol"></span>
+    <span class="" data-bind-class="item.line"></span>
+  </span>
+  <span class="ratp-right" data-bind="item.value"></span>
+  </li>
+</ul>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
